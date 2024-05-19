@@ -12,14 +12,27 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 ## 📸 Milestone's Sneak Peek
 
-<figure>
-  <img align="left" src="./images/starting.png" alt="Version 0" height="100">
-  <figcaption>Version 0</figcaption>
-</figure>
-<figure>
-  <img align="right" src="./images/version1.png" alt="Version 0" height="100">
-  <figcaption>Version 1</figcaption>
-</figure>
+<style>
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+</style>
+
+<div class="image-container">
+  <figure>
+    <img src="./images/starting.png" alt="Starting Version" height="100">
+    <figcaption>Starting Version</figcaption>
+  </figure>
+</div>
+<div class="image-container">
+  <figure>
+    <img src="./images/version1.png" alt="Version 1" height="100">
+    <figcaption>Version 1</figcaption>
+  </figure>
+</div>
+
 
 ## 🚀 How to Get Started
 
