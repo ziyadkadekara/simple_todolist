@@ -5,7 +5,7 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 ## 🌟 Current Features
 
 - **Add Tasks**: Because we all need more to do, right? ✅
-- **Tasks Due Date**: todo is nothing without a due. ✅
+- **Due Dates**: For the procrastinators among us.✅
 - **Delete Tasks**: Poof! They’re gone. ✅
   
 
@@ -13,11 +13,11 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 ## 📸 Milestone's Sneak Peek
 
 <figure>
-  <img src="./images/starting.png" alt="Version 0" height="100">
+  <img align="left" src="./images/starting.png" alt="Version 0" height="100">
   <figcaption>Version 0</figcaption>
 </figure>
 <figure>
-  <img src="./images/version1.png" alt="Version 0" height="100">
+  <img align="right" src="./images/version1.png" alt="Version 0" height="100">
   <figcaption>Version 1</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 - **Mark as Done**: Satisfying checkmarks included!
 - **Edit Tasks**: Because who writes perfect tasks on the first try?
 - **Task Priorities**: Not all tasks are created equal.
-- **Due Dates**: For the procrastinators among us.
+
 
 ## 🤝 Wanna Help?
 
