@@ -1,28 +1,33 @@
-const todoArray = [];
+const todoArray = [{todo:'',dueDate:''}];  //object declaration
 
-function renderTodo (){
+function renderTodo() {
     let todoList = '';
-    
-    for(let i=0; i<todoArray.length;i++){
-        let html = `<p>${todoArray[i]}</p>`;
-        todoList +=html;
+
+    for (let i = 0; i < todoArray.length; i++) {
+        const html = `<p>${todoArray[i].todo} ${todoArray[i].dueDate} 
+        <button onclick="
+        todoArray.splice(${i},1);
+        renderTodo();
+        ">Delete</button></p>`;
+        todoList += html;
     }
     document.querySelector('.js-todo-list').innerHTML = todoList;
 }
 
 
-function addTodo () {
+function addTodo() {
     const inputElement = document.querySelector('.js-todo-name');
-    const todoName = inputElement.value;
-    console.log(todoName); 
-    todoArray.push(todoName);
-    console.log(todoArray);
-    inputElement.value='';
+    const dueDateElement = document.querySelector('.js-duedate');
+    const todo = inputElement.value;
+    const dueDate = dueDateElement.value;
+    console.log(todo);
+    todoArray.push({todo,dueDate});
+    inputElement.value = '';
     renderTodo();
 }
 
 function handleTodoKeydown(event) {
     if (event.key === 'Enter') {
-      addTodo();
+        addTodo();
     }
-  }
+}
