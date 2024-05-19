@@ -5,7 +5,9 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 ## 🌟 Current Features
 
 - **Add Tasks**: Because we all need more to do, right? ✅
+- **Tasks Due Date**: todo is nothing without a due. ✅
 - **Delete Tasks**: Poof! They’re gone. ✅
+  
 
 
 ## 📸 Milestone's Sneak Peek
@@ -14,7 +16,10 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
   <img src="./images/starting.png" alt="Version 0" height="100">
   <figcaption>Version 0</figcaption>
 </figure>
-
+<figure>
+  <img src="./images/version1.png" alt="Version 0" height="100">
+  <figcaption>Version 1</figcaption>
+</figure>
 
 ## 🚀 How to Get Started
 
