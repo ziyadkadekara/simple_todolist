@@ -10,8 +10,8 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 ## 📸 Milestone's Sneak Peek
 
-<figure style="display: flex; flex-direction: column; align-items: center;">
-  <img src="./images/starting.png" alt="Version 0" height="100">
+<figure>
+  <img align = "center " src="./images/starting.png" alt="Version 0" height="100">
   <figcaption>Version 0</figcaption>
 </figure>
 
