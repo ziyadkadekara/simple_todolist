@@ -10,7 +10,11 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 ## 📸 Milestone's Sneak Peek
 
-<img src="./images/starting.png" alt="Version 1" height="300">
+<figure>
+  <img src="./images/starting.png" alt="Version 0" height="200">
+  <figcaption>Version 0</figcaption>
+</figure>
+
 
 ## 🚀 How to Get Started
 
