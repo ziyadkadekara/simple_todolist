@@ -14,7 +14,9 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 
 
-<div display: flex; flex-direction: column; margin-bottom: 1rem;>
+<div display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;>
   <figure>
     <img src="./images/starting.png" alt="Starting Version" height="100">
     <figcaption>Starting Version</figcaption>
