@@ -2,17 +2,21 @@
 <html>
   <head>
     <title>Simple Todo List</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <p>My Todo's</p>
-    <input placeholder="todo name" class="js-todo-name" onkeydown="handleTodoKeydown(event);">   
-    <!--  this code handle button press, there is always an event listener, so add event as argument to the function -->
-    <input type="date" class="js-duedate" onkeydown="handleTodoKeydown(event);">
-    <button onclick="
-    addTodo();
-    " class="js-todo-add-button">Add</button>
+    <div class="todo-input">
+      <input placeholder="todo name" class="js-todo-name  todo-name" onkeydown="handleTodoKeydown(event);">   
+      <!--  this code handle button press, there is always an event listener, so add event as argument to the function -->
+      <input type="date" class="js-duedate duedate" onkeydown="handleTodoKeydown(event);">
+      <button onclick="
+      addTodo();
+      " class="js-todo-add-button add-button" >Add</button>
+    </div>
+   
     
-    <div class="js-todo-list"></div>
+    <div class="js-todo-list todo-grid"></div>
 
     <script src="script.js">
       

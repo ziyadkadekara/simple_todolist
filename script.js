@@ -4,11 +4,13 @@ function renderTodo() {
     let todoList = '';
 
     for (let i = 0; i < todoArray.length; i++) {
-        const html = `<p>${todoArray[i].todo} ${dueStatus(i)} 
+        const html = `
+        <div>${todoArray[i].todo}</div>
+        <div> ${dueStatus(i)} </div>
         <button onclick="
         todoArray.splice(${i},1);
         renderTodo();
-        ">Delete</button></p>`;
+        " class="delete-button">Delete</button>`;
         todoList += html;
     }
     document.querySelector('.js-todo-list').innerHTML = todoList;
@@ -38,7 +40,7 @@ function handleTodoKeydown(event) {
 function dueStatus (i) {
     const status = todoArray[i].dueDate;
     if(!status){
-        return 'no Due';
+        return 'no due';
     }else {
         return status;
     }
