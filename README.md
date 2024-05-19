@@ -1,4 +1,4 @@
-# 📝  Simple To-Do List Bonanza
+# 📝  Simple To-Do List 
 
 Welcome to my To-Do List project! It's simple, it's functional, and it’s here to keep your tasks in check. Made with HTML, CSS, and JavaScript because why not?
 
@@ -12,15 +12,11 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 ## 📸 Milestone's Sneak Peek
 
-<style>
-  .image-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-  }
-</style>
 
-<div class="image-container">
+
+<div display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;>
   <figure>
     <img src="./images/starting.png" alt="Starting Version" height="100">
     <figcaption>Starting Version</figcaption>
