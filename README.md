@@ -8,9 +8,13 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 - **Delete Tasks**: Poof! They’re gone. ✅
 
 
-## 📸 Sneak Peek
+## 📸 Milestone's Sneak Peek
 
-![How its started](./images/starting.png height = 300px)
+<figure>
+  <img src="./images/starting.png" alt="Version 0" height="100">
+  <figcaption>Version 0</figcaption>
+</figure>
+
 
 ## 🚀 How to Get Started
 
