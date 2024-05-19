@@ -10,7 +10,7 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 ## 📸 Sneak Peek
 
-![How its started](./images/starting.png height = 300px)
+![How its started](<img src="./images/starting.png" alt="Main Interface" width="600">)
 
 ## 🚀 How to Get Started
 
