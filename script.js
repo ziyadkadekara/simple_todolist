@@ -2,18 +2,32 @@ const todoArray = [];  //object declaration
 
 function renderTodo() {
     let todoList = '';
-
-    for (let i = 0; i < todoArray.length; i++) {
+//used .forEach function
+    todoArray.forEach(function(todoName,index){
+        const {todo} = todoName;
         const html = `
+        <div>${todo}</div>
+         <div> ${dueStatus(index)} </div>
+         <button onclick="
+        todoArray.splice(${index},1);
+        renderTodo();
+        " class="delete-button">Delete</button>`;
+         todoList += html; 
+    });
+
+    document.querySelector('.js-todo-list').innerHTML = todoList; 
+
+    /* for (let i = 0; i < todoArray.length; i++) {
+         const html = `
         <div>${todoArray[i].todo}</div>
-        <div> ${dueStatus(i)} </div>
-        <button onclick="
+         <div> ${dueStatus(i)} </div>
+         <button onclick="
         todoArray.splice(${i},1);
         renderTodo();
         " class="delete-button">Delete</button>`;
-        todoList += html;
+         todoList += html;
     }
-    document.querySelector('.js-todo-list').innerHTML = todoList;
+     document.querySelector('.js-todo-list').innerHTML = todoList; */
 }
 
 
