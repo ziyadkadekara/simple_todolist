@@ -3,7 +3,7 @@ const todoArray = [];  //object declaration
 function renderTodo() {
     let todoList = '';
 //used .forEach function
-    todoArray.forEach(function(todoName,index){
+    todoArray.forEach((todoName,index)=>{
         const {todo} = todoName;
         const html = `
         <div>${todo}</div>
