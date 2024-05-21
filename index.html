@@ -7,12 +7,12 @@
   <body>
     <p>My Todo's</p>
     <div class="todo-input">
-      <input placeholder="todo name" class="js-todo-name  todo-name" onkeydown="handleTodoKeydown(event);">   
-      <!--  this code handle button press, there is always an event listener, so add event as argument to the function -->
-      <input type="date" class="js-duedate duedate" onkeydown="handleTodoKeydown(event);">
-      <button onclick="
-      addTodo();
-      " class="js-todo-add-button add-button" >Add</button>
+      <input placeholder="todo name" class="js-todo-name  todo-name">   
+      <!-- onkeydown="handleTodoKeydown(event);  this code handle button press, there is always an event listener, so add event as argument to the function -- this is removed because latest code by adding event listerners -->
+      
+      <input type="date" class="js-duedate duedate" >
+
+      <button class="js-todo-add-button add-button" >Add</button>
     </div>
    
     
