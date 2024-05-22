@@ -34,11 +34,11 @@ Welcome to my To-Do List project! It's simple, it's functional, and it’s here 
 
 1. **Clone this bad boy**
     ```bash
-    git clone https://github.com/yourusername/todolist.git
+    git clone https://github.com/ziyadkadekara/simple_todolist.git
     ```
 2. **Open Sesame**
     ```bash
-    cd todolist
+    cd simple_todolist
     open index.html
     ```
 
