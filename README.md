@@ -1,6 +1,7 @@
 # 📝  Simple To-Do List 
 
 Welcome to my To-Do List project! It's simple, it's functional, and it’s here to keep your tasks in check. Made with HTML, CSS, and JavaScript because why not?
+[Click ME!](https://ziyadkadekara.github.io/simple_todolist/)
 
 ## 🌟 Current Features
 
